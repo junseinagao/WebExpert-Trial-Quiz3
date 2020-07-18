@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ネプリーグ風!2択問題に答えるクイズ!!</title>
+  </head>
+  <body>
+    <!-- ↓クイズのタイトルをh2の中に書こう↓ -->
+    <h2>オーケストラでより低い音を吹くのはどっちの楽器?</h2>
+    <!-- タイマーを表示するh3タグを作ろう(id="timer") -->
+    <h3 id="timer"></h3>
+    <!-- ↓imgタグを変更してクイズの写真を変えよう↓ -->
+    <span class="A">
+      <img src="tuba.jpg" id="a" />
+    </span>
+    <span class="B">
+      <img src="horn.jpg" id="b" />
+    </span>
+    <div>
+      <!-- ↓結果を表示するh2タグを作ろう(id="result-display")↓ -->
+      <h2 id="result-display"></h2>
+    </div>
+    <!-- ↓audioタグにidを付けよう(id="audio-crrect")(id="aduio-wrong")↓ -->
+    <audio src="correct.mp3" id="audio-correct"></audio>
+    <audio src="wrong.mp3" id="audio-wrong"></audio>
+    <script src="main.js"></script>
+  </body>
+</html>

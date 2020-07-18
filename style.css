@@ -1,0 +1,38 @@
+div {
+  margin: 1em;
+}
+
+img {
+  margin: 1em;
+  width: 320px;
+}
+
+#button-a {
+  padding: 1em;
+  color: white;
+  font: bold;
+  background-color: red;
+}
+
+#button-b {
+  padding: 1em;
+  color: white;
+  font: bold;
+  background-color: blue;
+}
+
+.A {
+  padding: 1em;
+  color: white;
+  background-color: red;
+  display: inline;
+  display: inline-block;
+}
+
+.B {
+  padding: 1em;
+  color: white;
+  background-color: blue;
+  display: inline;
+  display: inline-block;
+}
